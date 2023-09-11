@@ -1,0 +1,5 @@
+
+Converting text to integer:
+	if we use int.Parser(x) or int.tryParse(x) we can convert text to int.
+	same with floats: float.Parser(x) or float.tryParser(x)
+	
