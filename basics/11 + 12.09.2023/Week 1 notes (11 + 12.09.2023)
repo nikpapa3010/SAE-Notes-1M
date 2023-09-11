@@ -1,5 +1,7 @@
 
 Converting text to integer:
-	if we use int.Parser(x) or int.tryParse(x) we can convert text to int.
-	same with floats: float.Parser(x) or float.tryParser(x)
+	if we use int.Parse(x) or int.tryParse(x) we can convert text to int.
+	same with floats: float.Parse(x) or float.tryParse(x)
 	
+TryParse gives a bool, because if the convertion doesn't work, it sends a bool, if it did, it sends a true
+
