@@ -1,0 +1,12 @@
+saving the password doesn't work...
+
+class already defines the code, which makes the app no longer remember the code... 
+perhaps i need to call the login method again?
+
+perhaps i need a way to make the method remember the new code, will look into it
+
+
+FIX.
+i made it work, by deleting the code variable from the class, and giving it as a parameter in the login method. 
+i serialized the parameter and then when i call the login method in the new password method i put as a parameter the new method.
+kinda junky, but it works :) 

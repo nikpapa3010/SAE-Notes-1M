@@ -5,3 +5,8 @@ Converting text to integer:
 	
 TryParse gives a bool, because if the convertion doesn't work, it sends a bool, if it did, it sends a true
 
+
+out keyword inside a method can be used, in example, when we have a boolean method, which will return a bool, but we also want to return some kind of other variable. Very useful! 
+example:
+
+public bool CheckAndNumber(int num1, int num2, out int results)
