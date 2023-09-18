@@ -1,0 +1,19 @@
+Lists and for each in c#:
+
+
+// create a List with the Monster class
+List<Monster> monsterList = new List<Monster>();
+
+//add monsters in monsterList
+monsterList.Add(monster);
+monsterList.Add(monster2);
+monsterList.Add(monster3);
+
+//for each monster in monsterList use the showStats method.
+foreach (Monster item in monsterList)
+	{
+		item.showStats();
+	}
+
+
+structs:
