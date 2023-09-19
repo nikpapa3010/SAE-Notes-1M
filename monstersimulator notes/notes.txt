@@ -1,0 +1,21 @@
+Schreibe ein Programm, das den Kampf zwischen zwei Monstern simuliert. Hierzu sollen zwei Monster mit Hilfe von objektorientierter Programmierung erstellt werden.  
+
+Erstelle eine Klasse die ein Monster repräsentiert. 
+Dieses Monster muss mindestens folgende Attribute besitzen: Lebenspunkte (HP), Angriffsstärke (AP), Abwehrpunkte (DP), Geschwindigkeit (S) und Rasse.
+Mögliche Rassen sind Ork, Troll und Goblin. 
+Alle Monster besitzen einen Methode zum attackieren, die Attack heissen soll. 
+
+Zu Beginn soll das Programm nach einer Eingabe fragen, um festzulegen welche zwei Monster gegeneinander antreten sollen. 
+Dies wird durch Integer-Werte realisiert (1 = Ork, 2 = Troll, 3 = Goblin) gefolgt von 4 Float-Werten zur Bestimmung der oben genannten Attribute, welche der Benutzer selber eingeben kann. 
+Die Reihenfolge HP - AP - DP - S ist dabei einzuhalten. Das Programm darf keinen Kampf zwischen Monstern der gleichen Rasse erlauben.
+
+Im Anschluss berechnet das Programm wer den Kampf gewinnt. Die Formel dazu lautet: Schaden = Angriffsstärke - Abwehrpunkte. 
+Sollte sich für den Schaden ein negativer Wert ergeben wird dieser auf 0 gesetzt. Der Schaden wird von den Lebenspunkten des jeweiligen Monsters abgezogen. 
+Sollte das Monster nach einer Attacke noch Lebenspunkte übrig haben führt dieses nun einen Angriff aus. Dies wiederholt sich bis ein Monster stirbt.
+
+Die komplette Angriffsmechanik wird von der Attack-Methode realisiert. 
+Das Monster mit dem höheren Geschwindigkeitswert führt den ersten Angriff aus. 
+Nachdem ein Monster besiegt wurde gibt das Programm aus wer gewonnen hat und wie viele Runden der Kampf dauerte. 
+Jeder Angriff zählt dabei als Runde.
+
+
